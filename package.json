@@ -1,5 +1,5 @@
 {
-  "name": "scinapse-feedback",
+  "name": "@pluto_network/scinapse-feedback",
   "version": "0.0.1",
   "description": "Scinapse Feedback Package",
   "main": "lib/index.js",
@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
