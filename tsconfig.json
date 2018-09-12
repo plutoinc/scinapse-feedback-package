@@ -4,11 +4,13 @@
       "es2015"
     ],
     "moduleResolution": "node",
-    "outDir": "dst",
+    "outDir": "lib",
+    "declaration": true,
     "preserveConstEnums": true,
     "rootDir": "./",
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es5"
-  }
+  },
+  "exclude": ["node_modules"]
 }
