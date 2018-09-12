@@ -1,6 +1,6 @@
 import axios from "axios";
 
-interface FeedbackTicket {
+export interface FeedbackTicket {
     content: string;
     email?: string;
     userId?: string;

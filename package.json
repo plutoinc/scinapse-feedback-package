@@ -1,11 +1,11 @@
 {
   "name": "@pluto_network/scinapse-feedback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scinapse Feedback Package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf lib && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

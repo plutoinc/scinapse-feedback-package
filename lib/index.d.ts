@@ -1,4 +1,4 @@
-interface FeedbackTicket {
+export interface FeedbackTicket {
     content: string;
     email?: string;
     userId?: string;
@@ -9,4 +9,3 @@ export default class Feedback {
     private feedbackPostingUrl;
     sendFeedback(feedbackTicket: FeedbackTicket): Promise<void>;
 }
-export {};
