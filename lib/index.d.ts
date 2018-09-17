@@ -1,5 +1,6 @@
 export interface FeedbackTicket {
     content: string;
+    referer: string;
     email?: string;
     userId?: string;
     gaId?: string;
