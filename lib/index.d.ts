@@ -13,6 +13,7 @@ export interface FreshdeskTicket {
     status: number;
     priority: number;
     source: number;
+    shouldAlertSlack?: boolean;
 }
 export default class Feedback {
     private feedbackPostingUrl;
